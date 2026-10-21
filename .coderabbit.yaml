@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# Tracking repository only. Do not run code reviews here.
+# https://docs.coderabbit.ai/configuration/auto-review
+# https://docs.coderabbit.ai/reference/configuration
+inheritance: false
+reviews:
+  auto_review:
+    enabled: false
+    auto_incremental_review: false
+    drafts: false
+    description_keyword: ""
+    labels: []
+  # Exclude every path, including when someone requests a review manually.
+  path_filters:
+    - "!**/*"
+  request_changes_workflow: false
+  high_level_summary: false
+  review_status: false
+  review_progress: false
+  commit_status: false
+chat:
+  auto_reply: false
