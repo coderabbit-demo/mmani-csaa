@@ -21,8 +21,8 @@ def table(headers,rows,widths=None):
     out+='<thead><tr>'+''.join('<th>'+h+'</th>' for h in headers)+'</tr></thead><tbody>'
     for row in rows: out+='<tr>'+''.join('<td>'+x+'</td>' for x in row)+'</tr>'
     return out+'</tbody></table>'
-def label(id,status,name=''):
-    return '<p><strong>'+esc(id)+'</strong></p><p><strong>'+esc(status)+'</strong></p>'
+def label(value):
+    return '<p><strong>'+esc(value)+'</strong></p>'
 def exact(row):
     c=row['cells']; key=row['id']
     x='<p><strong>'+fmt(c[1])+'</strong></p>'
@@ -48,9 +48,9 @@ def prod_section(key,title,note):
     for q in report['requirements'][key]:
         if q['id'] not in report['productRows']: continue
         a=report['productRows'][q['id']]
-        rs.append([label(q['id'],a['status']),exact(q),p(a['evidence'])+p('POC evidence: not supplied.'),p(a['mitigation'])+'<p>'+refs(a['refs'])+'</p>'])
-    return out+table(['ID / Met','Exact requirement wording','Evidence and remaining gap','Available mitigation and closure proof'],rs,[8,34,24,34])
-out='<!doctype html><html><head><meta charset="utf-8"><title>'+esc(report['title'])+'</title><style>body{font-size:11pt;line-height:1.15;}p{margin:0 0 6pt;}h1{font-size:18pt;margin:18pt 0 8pt;}h2{font-size:16pt;margin:14pt 0 8pt;}h1.title{font-size:22pt;}table{border-collapse:collapse;margin:6pt 0 14pt;}th,td{border:1px solid #aab4c1;padding:5pt;vertical-align:top;}th{background:#e8eef5;text-align:left;}code,pre{font-family:monospace;}pre{white-space:pre-wrap;font-size:10pt;border:1px solid #c8cfd8;padding:8pt;}p.source{color:#475467;font-size:10pt;}li{margin-bottom:4pt;}</style></head><body>'
+        rs.append([label(q['id']),label(a['status']),exact(q),p(a['evidence'])+p('POC evidence: not supplied.'),p(a['mitigation'])+'<p>'+refs(a['refs'])+'</p>'])
+    return out+table(['ID','Met','Exact requirement wording','Evidence and remaining gap','Available mitigation and closure proof'],rs,[6.5,10,30,23.5,30])
+out='<!doctype html><html><head><meta charset="utf-8"><title>'+esc(report['title'])+'</title><style>@page{size:letter landscape;margin:0.5in;}body{font-size:11pt;line-height:1.15;max-width:10in;margin:0 auto;}p{margin:0 0 6pt;}h1{font-size:18pt;margin:18pt 0 8pt;}h2{font-size:16pt;margin:14pt 0 8pt;}h1.title{font-size:22pt;}table{border-collapse:collapse;margin:6pt 0 14pt;}th,td{border:1px solid #aab4c1;padding:5pt;vertical-align:top;}th{background:#e8eef5;text-align:left;}code,pre{font-family:monospace;}pre{white-space:pre-wrap;font-size:10pt;border:1px solid #c8cfd8;padding:8pt;}p.source{color:#475467;font-size:10pt;}li{margin-bottom:4pt;}</style></head><body>'
 out+='<h1 class="title">'+esc(report['title'])+'</h1>'+p(report['date'])
 out+=p('The framework is a credible basis for a controlled POC. The supplied package is a draft specification with no executed gate/probe evidence. Many gaps can be mitigated through supported CodeRabbit configuration, context controls or an evidence adapter; proposed mitigation is not proof that a criterion has been met.')
 out+=p('This revision expands the exact evaluated wording, separates supported product capability from actual POC evidence, and evaluates a mitigation for every previous hard No. It does not apply any CodeRabbit settings or change the source package.')
@@ -82,12 +82,12 @@ sections=[
 ]
 for args in sections:out+=prod_section(*args)
 out+='<h1>Platform-specific coverage</h1>'
-out+=table(['ID / Met','Exact evaluated clause','Evidence and remaining gap','Mitigation and closure proof'],[[label(x['id'],x['status']),p(x['name'])+p(x['exact'])+p(x['local'],'source'),p(x['evidence']),p(x['mitigation'])+'<p>'+refs(x['refs'])+'</p>'] for x in report['platforms']],[8,34,24,34])
+out+=table(['ID','Met','Exact evaluated clause','Evidence and remaining gap','Mitigation and closure proof'],[[label(x['id']),label(x['status']),p(x['name'])+p(x['exact'])+p(x['local'],'source'),p(x['evidence']),p(x['mitigation'])+'<p>'+refs(x['refs'])+'</p>'] for x in report['platforms']],[6.5,10,30,23.5,30])
 out+=p('E3–E10 and AS1–AS8 remain optional/aspirational unless explicitly elevated by the evaluation owner. Their absence is not assigned a hard No or treated as a Day 1 adoption blocker in this report.')
 out+='<h1>Framework gaps and mitigation of every hard No</h1>'
 out+=p('Current Met below concerns the package’s coverage or artifacts, not product capability. A supported mitigation does not change No to Yes until the package is updated and closure evidence exists. Proposed additional coverage is labeled explicitly.')
-out+=table(['ID / current Met','Exact clause or explicitly proposed requirement','Assessment','Product mitigation, owner work and residual proof'],[
-[label(g['id'],g['met']),p(g['name']+' — '+g['priority'])+p(g['exact'])+p(g['local'],'source'),p(g['assessment']),'<p><strong>'+esc(g['mitigationSupport'])+'</strong></p>'+p(g['mitigation'])+'<p>'+refs(g['refs'])+'</p>'] for g in report['gaps']],[8,32,25,35])
+out+=table(['ID','Met','Exact clause or explicitly proposed requirement','Assessment','Product mitigation, owner work and residual proof'],[
+[label(g['id']),label(g['met']),p(g['name']+' — '+g['priority'])+p(g['exact'])+p(g['local'],'source'),p(g['assessment']),'<p><strong>'+esc(g['mitigationSupport'])+'</strong></p>'+p(g['mitigation'])+'<p>'+refs(g['refs'])+'</p>'] for g in report['gaps']],[6.5,10,30,23.5,30])
 out+='<h1>Illustrative configuration fragments</h1>'
 out+=p('These are supported-format examples based on the inspected schema, not an applied or fully validated tenant configuration. Validate against the deployed schema/YAML validator and export @coderabbitai configuration before freezing. Do not copy the mono repository’s own dogfooding configuration wholesale.')
 out+='<h2>Advisory controls</h2><pre>'+esc(report['examples']['advisory'])+'</pre>'
