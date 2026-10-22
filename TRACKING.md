@@ -2,7 +2,8 @@
 
 The project is tracked in [coderabbit-demo/mmani-csaa](https://github.com/coderabbit-demo/mmani-csaa).
 This repository contains the supplied v2.5 framework and the October 21, 2026
-CodeRabbit assessment. No evaluation probes have been executed.
+CodeRabbit assessment. Formal platform evaluation remains unscored. The separate
+demonstration implementation and local CLI rehearsals are recorded below.
 
 ## Assessment and sources
 
@@ -16,6 +17,7 @@ CodeRabbit assessment. No evaluation probes have been executed.
 | [Source package hashes](reports/2026-10-21/source-package-sha256.json) | SHA-256 values of all 33 supplied files, excluding Finder metadata. |
 | [CSAA mutual success plan](reports/2026-10-21/csaa-mutual-success-plan.md) | Requirements-based draft with proposed activities, success indicators, deployment details and known DPT owners; unconfirmed dates and contacts are marked explicitly. |
 | [MSP handoff and open confirmations](reports/2026-10-21/csaa-msp-handoff.md) | Links the committed deliverables and records the confirmations needed before execution or commercial commitments. |
+| [Demonstration implementation status](reports/2026-10-21/demo-implementation-status.md) | Six published baselines, passing hosted CI, native showcase observations, configuration package, preliminary CLI repeatability and pending configured validation. Contains no execution code or locked answer keys. |
 | [MSP PDF](reports/2026-10-21/csaa-mutual-success-plan.pdf) / [MSP Word snapshot](reports/2026-10-21/csaa-mutual-success-plan.docx) / [structured MSP content](reports/2026-10-21/csaa-mutual-success-plan.json) | Snapshots of the [editable Google Doc](https://docs.google.com/document/d/1GfYrExOJhHtyCAgCJsk0rJ20Up9Vg5aAShzPLqlUeQk/edit). The original template is retained under `reports/2026-10-21/source-templates/`. No successful PoV result or commercial commitment is asserted. |
 | [Original package introduction](README.md) | Framework overview, folder purposes and operating sequence. |
 
