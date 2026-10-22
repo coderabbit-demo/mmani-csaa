@@ -1,0 +1,259 @@
+{
+  "file": "CodeRabbit-Readiness-Bitbucket-Cloud-v2.mp4",
+  "fps": 30,
+  "duration_frames": 15658,
+  "duration_seconds": 521.9333333333333,
+  "browser_speed": 0.85,
+  "help_ready_source_seconds": 34.833333333333336,
+  "help_hold_seconds": 4,
+  "timeline": [
+    {
+      "name": "intro",
+      "start_frame": 0,
+      "duration_frames": 210,
+      "start_seconds": 0.0,
+      "duration_seconds": 7.0,
+      "file": "../production/build-iteration2/intro.mp4"
+    },
+    {
+      "name": "step-01",
+      "start_frame": 210,
+      "duration_frames": 459,
+      "start_seconds": 7.0,
+      "duration_seconds": 15.3,
+      "file": "../production/build-iteration2/browser-00.mp4"
+    },
+    {
+      "name": "transition-02",
+      "start_frame": 669,
+      "duration_frames": 120,
+      "start_seconds": 22.3,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-02.mp4"
+    },
+    {
+      "name": "step-02",
+      "start_frame": 789,
+      "duration_frames": 600,
+      "start_seconds": 26.3,
+      "duration_seconds": 20.0,
+      "file": "../production/build-iteration2/browser-01.mp4"
+    },
+    {
+      "name": "transition-03",
+      "start_frame": 1389,
+      "duration_frames": 120,
+      "start_seconds": 46.3,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-03.mp4"
+    },
+    {
+      "name": "step-03",
+      "start_frame": 1509,
+      "duration_frames": 883,
+      "start_seconds": 50.3,
+      "duration_seconds": 29.433333333333334,
+      "file": "../production/build-iteration2/browser-02.mp4"
+    },
+    {
+      "name": "transition-04",
+      "start_frame": 2392,
+      "duration_frames": 120,
+      "start_seconds": 79.73333333333333,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-04.mp4"
+    },
+    {
+      "name": "step-04",
+      "start_frame": 2512,
+      "duration_frames": 353,
+      "start_seconds": 83.73333333333333,
+      "duration_seconds": 11.766666666666667,
+      "file": "../production/build-iteration2/browser-03.mp4"
+    },
+    {
+      "name": "transition-05",
+      "start_frame": 2865,
+      "duration_frames": 120,
+      "start_seconds": 95.5,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-05.mp4"
+    },
+    {
+      "name": "step-05",
+      "start_frame": 2985,
+      "duration_frames": 635,
+      "start_seconds": 99.5,
+      "duration_seconds": 21.166666666666668,
+      "file": "../production/build-iteration2/browser-04.mp4"
+    },
+    {
+      "name": "transition-06",
+      "start_frame": 3620,
+      "duration_frames": 120,
+      "start_seconds": 120.66666666666667,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-06.mp4"
+    },
+    {
+      "name": "step-06",
+      "start_frame": 3740,
+      "duration_frames": 918,
+      "start_seconds": 124.66666666666667,
+      "duration_seconds": 30.6,
+      "file": "../production/build-iteration2/browser-05.mp4"
+    },
+    {
+      "name": "transition-07",
+      "start_frame": 4658,
+      "duration_frames": 120,
+      "start_seconds": 155.26666666666668,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-07.mp4"
+    },
+    {
+      "name": "step-07",
+      "start_frame": 4778,
+      "duration_frames": 1658,
+      "start_seconds": 159.26666666666668,
+      "duration_seconds": 55.266666666666666,
+      "file": "../production/build-iteration2/browser-06.mp4"
+    },
+    {
+      "name": "transition-08",
+      "start_frame": 6436,
+      "duration_frames": 120,
+      "start_seconds": 214.53333333333333,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-08.mp4"
+    },
+    {
+      "name": "step-08",
+      "start_frame": 6556,
+      "duration_frames": 1553,
+      "start_seconds": 218.53333333333333,
+      "duration_seconds": 51.766666666666666,
+      "file": "../production/build-iteration2/browser-07.mp4"
+    },
+    {
+      "name": "transition-09",
+      "start_frame": 8109,
+      "duration_frames": 120,
+      "start_seconds": 270.3,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-09.mp4"
+    },
+    {
+      "name": "step-09",
+      "start_frame": 8229,
+      "duration_frames": 2153,
+      "start_seconds": 274.3,
+      "duration_seconds": 71.76666666666667,
+      "file": "../production/build-iteration2/browser-08.mp4"
+    },
+    {
+      "name": "transition-10",
+      "start_frame": 10382,
+      "duration_frames": 120,
+      "start_seconds": 346.06666666666666,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-10.mp4"
+    },
+    {
+      "name": "step-10",
+      "start_frame": 10502,
+      "duration_frames": 1906,
+      "start_seconds": 350.06666666666666,
+      "duration_seconds": 63.53333333333333,
+      "file": "../production/build-iteration2/browser-09.mp4"
+    },
+    {
+      "name": "transition-11",
+      "start_frame": 12408,
+      "duration_frames": 120,
+      "start_seconds": 413.6,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-11.mp4"
+    },
+    {
+      "name": "step-11",
+      "start_frame": 12528,
+      "duration_frames": 825,
+      "start_seconds": 417.6,
+      "duration_seconds": 27.5,
+      "file": "../production/build-iteration2/browser-10.mp4"
+    },
+    {
+      "name": "transition-12",
+      "start_frame": 13353,
+      "duration_frames": 120,
+      "start_seconds": 445.1,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-12.mp4"
+    },
+    {
+      "name": "step-12",
+      "start_frame": 13473,
+      "duration_frames": 335,
+      "start_seconds": 449.1,
+      "duration_seconds": 11.166666666666666,
+      "file": "../production/build-iteration2/terminal-00.mp4"
+    },
+    {
+      "name": "transition-13",
+      "start_frame": 13808,
+      "duration_frames": 120,
+      "start_seconds": 460.26666666666665,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-13.mp4"
+    },
+    {
+      "name": "step-13",
+      "start_frame": 13928,
+      "duration_frames": 499,
+      "start_seconds": 464.26666666666665,
+      "duration_seconds": 16.633333333333333,
+      "file": "../production/build-iteration2/terminal-01.mp4"
+    },
+    {
+      "name": "transition-14",
+      "start_frame": 14427,
+      "duration_frames": 120,
+      "start_seconds": 480.9,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-14.mp4"
+    },
+    {
+      "name": "step-14",
+      "start_frame": 14547,
+      "duration_frames": 167,
+      "start_seconds": 484.9,
+      "duration_seconds": 5.566666666666666,
+      "file": "../production/build-iteration2/terminal-02.mp4"
+    },
+    {
+      "name": "transition-15",
+      "start_frame": 14714,
+      "duration_frames": 120,
+      "start_seconds": 490.46666666666664,
+      "duration_seconds": 4.0,
+      "file": "../production/build-iteration2/transition-15.mp4"
+    },
+    {
+      "name": "step-15",
+      "start_frame": 14834,
+      "duration_frames": 164,
+      "start_seconds": 494.46666666666664,
+      "duration_seconds": 5.466666666666667,
+      "file": "../production/build-iteration2/terminal-03.mp4"
+    },
+    {
+      "name": "closing",
+      "start_frame": 14998,
+      "duration_frames": 660,
+      "start_seconds": 499.93333333333334,
+      "duration_seconds": 22.0,
+      "file": "../production/build-iteration2/closing.mp4"
+    }
+  ]
+}

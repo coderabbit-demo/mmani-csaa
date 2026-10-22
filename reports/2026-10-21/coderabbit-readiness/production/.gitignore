@@ -1,0 +1,9 @@
+build/
+build-fullscreen/
+build-iteration2/
+python-deps/
+cli-bin/
+shell-config/
+__pycache__/
+*.pyc
+raw/test*

@@ -1,0 +1,18 @@
+{
+  "file": "CodeRabbit-Readiness-Bitbucket-Cloud-Fullscreen.mp4",
+  "duration_seconds": 449.333333,
+  "size_bytes": 16891825,
+  "sha256": "53d3513024dc6e52921ef29ed8257720a5cdb860f74ab1ffa3953716aea4cd69",
+  "video": "H.264, 3440x1640, 30fps",
+  "audio_tracks": 0,
+  "subtitle_tracks": 0,
+  "action_labels": "Burned into picture",
+  "browser_source": "ScreenCaptureKit window recording",
+  "terminal_source": "Timed real PTY capture",
+  "cli_installer_sha256": "a971b226f9f0d94e948372a24ce1eb51f244093542e0597e4d21cfd520ab0cd8",
+  "cli_version": "0.9.1",
+  "full_file_decode": "Passed ffmpeg -err_detect explode",
+  "visual_checks": "Complete browser frame and scope controls, native terminal render, title and action-label layout",
+  "browser_native_resolution": "3440x1440",
+  "browser_layout": "Full source frame at 1:1 pixels; no crop, zoom, inset or resize; 200-pixel label strip appended beneath"
+}
