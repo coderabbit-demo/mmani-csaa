@@ -1,0 +1,8 @@
+{"time": 1.0194, "label": "13 | Fresh CLI installation: choose an isolated demonstration directory. A normal install uses ~/.local/bin."}
+{"time": 6.1221, "label": "13 | Add the installation directory to this shell PATH so coderabbit and cr resolve correctly."}
+{"time": 11.1612, "label": "14 | Download and run the official installer. Browser login is deferred so no authentication tokens appear in the recording."}
+{"time": 27.7837, "label": "15 | Verify the installed CodeRabbit CLI version. The cr command is its short alias."}
+{"time": 33.3426, "label": "16 | New users run cr auth login (or --region eu) and complete browser sign-in with the intended account."}
+{"time": 42.9175, "label": "17 | Verify sign-in identity and organization. This existing machine is GitHub-authenticated; Bitbucket users must sign in to the matching account and organization."}
+{"time": 53.4457, "label": "18 | Select the organization with the Bitbucket connection and CLI entitlement. A hosted PR installation does not establish CLI access."}
+{"time": 60.89, "label": "END | Terminal installation and authentication guidance captured. No code review was started."}

@@ -1,0 +1,21 @@
+{
+  "file": "CodeRabbit-Readiness-Bitbucket-Cloud-v2.mp4",
+  "duration_seconds": 521.9333333333333,
+  "size_bytes": 17773507,
+  "sha256": "17fac4bf8ec5caee31a3dfcc4de3db631e8c3fdeea0f26083fffe67e65145632",
+  "video": "H.264, 3440x1640, 30fps",
+  "browser_native_resolution": "3440x1440",
+  "browser_speed": 0.85,
+  "opening_seconds": 7,
+  "transition_cards": 14,
+  "transition_seconds_each": 4,
+  "cli_last_command": "cr auth login --help",
+  "cli_complete_help_hold_seconds": 4,
+  "cli_end_seconds": 499.93333333333334,
+  "audio_tracks": 0,
+  "subtitle_tracks": 0,
+  "action_labels": "Burned into picture",
+  "full_file_decode": "Passed ffmpeg -err_detect explode",
+  "visual_checks": "Transition title and purpose, complete login-help output, full browser frame retained",
+  "frame_timing_checks": "210-frame opening; each transition 120 frames; complete login help held 120 frames; final frame count and duration verified"
+}

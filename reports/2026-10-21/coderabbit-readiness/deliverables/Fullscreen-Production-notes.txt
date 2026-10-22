@@ -1,0 +1,40 @@
+CodeRabbit Readiness — Bitbucket Cloud + CLI
+Recorded October 21, 2026 (America/Los_Angeles).
+
+DELIVERABLE
+One silent MP4 with permanent action labels. This revision presents the complete native 3440 x 1440 browser-window recording at 1:1 pixel size, with no crop, zoom, inset or browser scaling. A 200-pixel action strip is appended below the capture so all browser controls remain visible. The final frame is 3440 x 1640 at 30 fps. The full-screen source recording is reused; this revision does not claim a new cloud installation or new browser take. The terminal section renders a real PTY recording with original typing/output timing. It is labelled as a recorded shell session. No browser screens or installer results were fabricated.
+
+WHAT WAS DEMONSTRATED
+Service-account prerequisites and the documented scoped-token workflow; Bitbucket workspace authorization instructions; six already-installed repositories; the review-account form with an unsaved example email; the installed, active CodeRabbit webhook and PR triggers; a typed Jira connection draft and Forge setup entry point; Jira reporting the site already linked; Base Scope with zero connections and the named six-repository scope; the configured YAML and approved Jira/repository context; an existing completed PR review and its pre-merge checks; and an unsent, typed manual-review request.
+
+A fresh CodeRabbit CLI installation ran from the official vendor installer in an isolated directory. The installer reported checksum and installation verification. coderabbit --version returned 0.9.1. Login help, existing authentication status and organization-selection help were recorded. No code review was started during production.
+
+BOUNDARIES
+This is a new walkthrough of an existing cloud tenant, not historical footage of the original installation. New account creation, OAuth consent, token creation, Forge secret exchange and final cloud installation saves were explained rather than repeated. No connections, scopes, webhooks or review configurations were saved or changed. The manual PR command was cancelled without posting. The evaluation tracking repository was unchanged and was never reviewed.
+
+Native Terminal UI control was unavailable; the video therefore uses a labelled real shell-session recording. Commands were actually typed into a PTY and executed, then their recorded events were rendered to video. The isolated binary is at /private/tmp/coderabbit-readiness/cli-bin/coderabbit. The usual vendor installation directory is ~/.local/bin. Browser login was deferred in this installation.
+
+The existing CLI account uses GitHub and coderabbit-demo, not the Bitbucket tenant. This difference is explicitly identified in the video. Bitbucket customers must sign in with the intended identity, select the matching organization and verify CLI entitlement. The observed hosted Bitbucket PR setup does not prove that separate CLI access.
+
+CUSTOMER ADAPTATION
+Replace the demo workspace/repositories and CDC/CDB project keys. Jira is optional for basic PR reviews; use native Jira Cloud Forge context when linked-business-issue checks are required. A repository scope is separate from provider permission scopes. Review actual OAuth/token grants; an application read-only mode alone does not reduce the provider grant. Retain required human reviewers and branch protection. If automatic PR reviews are wanted, enable and verify auto_review under the approved pilot policy; the evaluation profiles demonstrated here use manual triggers. Custom checks are advisory and do not run application tests.
+
+For restricted networks, US/EU tenancy, service-account rights, plan/seats, token expiry and webhook troubleshooting, follow the current vendor documentation. No firewall or access policy was changed during this recording. Tokens and installation secrets were not included. The terminal identity email was redacted.
+
+PRIMARY SOURCES CHECKED
+https://docs.coderabbit.ai/platforms/bitbucket-cloud
+https://docs.coderabbit.ai/connections/jira
+https://docs.coderabbit.ai/connections/scopes-review
+https://docs.coderabbit.ai/cli
+https://docs.coderabbit.ai/reference/configuration
+https://cli.coderabbit.ai/install.sh
+
+DEMONSTRATION SOURCES
+https://app.coderabbit.ai/settings/repositories
+https://app.coderabbit.ai/settings/bitbucket-user
+https://app.coderabbit.ai/connections?product=all
+https://app.coderabbit.ai/setup/scopes
+https://bitbucket.org/manimahesh-cr/csaa-platform-standards/src/main/configs/configured/csaa-tps-payments-aicr.yaml
+https://bitbucket.org/manimahesh-cr/csaa-tps-payments-aicr/pull-requests/14
+
+Setup evidence is separate from formal CSAA evaluation success.

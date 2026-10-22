@@ -1,0 +1,15 @@
+{"time": 0.0, "wall": 1792642272.1559849, "label": "01 | Prepare an admin account, repository installation rights, and a dedicated review identity. Existing tenant walkthrough; no new grants are made."}
+{"time": 13.0, "wall": 1792642285.3208928, "label": "02 | Create API token with scopes > choose Bitbucket > set expiry > select every required scope. Omit repository write for advisory-only use."}
+{"time": 30.0, "wall": 1792642301.943722, "label": "03 | Sign in with Bitbucket Cloud as the workspace admin, approve OAuth, select the workspace, then save the review-account token privately."}
+{"time": 55.0, "wall": 1792642327.438304, "label": "04 | Connected repositories: filter the intended repositories, select them, and Install. All six shown here are already installed."}
+{"time": 65.0, "wall": 1792642336.6427588, "label": "05 | Account > Bitbucket user: enter the review-account email and token, then Save. This is an unsaved example; existing credentials stay in place."}
+{"time": 83.0, "wall": 1792642354.992513, "label": "06 | Bitbucket Repository settings > Workflow > Webhooks: verify the CodeRabbit endpoint, Active status, TLS verification, and PR event triggers."}
+{"time": 109.0, "wall": 1792642380.870094, "label": "07 | Connections > Add connection > Jira: give it a name, choose the Jira Cloud Review connection, and use Forge for native issue context."}
+{"time": 134.0, "wall": 1792642405.760161, "label": "07 | For a new site: Connect with Forge > install the app in Jira > enter the 15-minute secret > Complete Setup > refresh CodeRabbit status. Existing site shown next."}
+{"time": 156.0, "wall": 1792642427.635914, "label": "08 | Scopes control which repositories can use a connection. The Base Scope has zero connections; CSAA demo context covers six repositories."}
+{"time": 200.0, "wall": 1792642471.86745, "label": "09 | Add the chosen .coderabbit.yaml at the repository root. Adapt repository links, approved Jira project keys, guidelines, and review triggers before saving."}
+{"time": 217.0, "wall": 1792642488.872352, "label": "09 | This evaluation profile uses manual reviews and warning-mode checks. For automatic PR reviews, approve and enable auto_review for the customer pilot."}
+{"time": 261.0, "wall": 1792642533.0941598, "label": "10 | Verify a real PR: link the approved Jira issue, inspect resolved settings, and confirm the review plus linked-issue and scope checks."}
+{"time": 299.0, "wall": 1792642571.223843, "label": "10 | Readiness evidence: PR 14 passes linked-issue, change-scope and approved-context checks. Application CI is a separate signal."}
+{"time": 315.0, "wall": 1792642587.609223, "label": "11 | For manual reviews, type @coderabbitai full review and submit when ready. This recording leaves the request as an unsent draft."}
+{"time": 343.0, "wall": 1792642614.686035, "label": "12 | Before handoff, verify seats and plan access, non-draft PR eligibility, target branches, token expiry, webhook delivery, and expected review triggers."}

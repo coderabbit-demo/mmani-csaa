@@ -1,0 +1,33 @@
+CodeRabbit Readiness — 08:42
+
+00:00  Opening
+00:07  Admin and review-identity prerequisites
+00:22  Next: Scoped API token
+00:26  Scoped API token
+00:46  Next: Bitbucket workspace authorization
+00:50  Bitbucket workspace authorization
+01:19  Next: Repository installation
+01:23  Repository installation
+01:35  Next: Review-account credentials
+01:39  Review-account credentials
+02:00  Next: Webhook verification
+02:04  Webhook verification
+02:35  Next: Jira connection and Forge setup
+02:39  Jira connection and Forge setup
+03:34  Next: Repository scope
+03:38  Repository scope
+04:30  Next: Repository review policy
+04:34  Repository review policy
+05:46  Next: Observed PR review and checks
+05:50  Observed PR review and checks
+06:53  Next: Manual review request (unsent)
+06:57  Manual review request (unsent)
+07:25  Next: Prepare CLI environment
+07:29  Prepare CLI environment
+07:40  Next: Official CLI installation
+07:44  Official CLI installation
+08:00  Next: CLI version verification
+08:04  CLI version verification
+08:10  Next: CLI login help
+08:14  CLI login help
+08:19  Customer readiness checklist

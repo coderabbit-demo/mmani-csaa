@@ -1,0 +1,22 @@
+CodeRabbit Readiness — 07:29
+
+00:00  Overview and recording boundary
+00:16  Service account and admin prerequisites
+00:29  Scoped API token workflow and exact permissions
+00:46  Bitbucket OAuth and workspace connection instructions
+01:11  Repository selection and existing installation status
+01:21  Bitbucket review-account form
+01:39  Webhook endpoint, secret handling, TLS and PR events
+02:05  Jira connection draft and Forge setup path
+02:52  Base Scope and six-repository Jira scope
+03:36  Repository YAML, review triggers and context
+04:37  Completed PR review and checks
+05:31  Typed manual review request — unsent
+05:54  CLI recording introduction
+06:06  Fresh terminal installation
+06:17  Official installer download and verification
+06:34  Installed version verification
+06:39  CLI login instructions
+06:49  Existing sign-in identity check
+07:00  Organization selection
+07:07  Customer readiness checklist
