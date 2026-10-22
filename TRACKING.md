@@ -14,6 +14,8 @@ CodeRabbit assessment. No evaluation probes have been executed.
 | [PDF snapshot](reports/2026-10-21/coderabbit-assessment.pdf) / [Word snapshot](reports/2026-10-21/coderabbit-assessment.docx) | Exports of the completed native Google Doc. |
 | [Google Doc](https://docs.google.com/document/d/16LQrN9LyoMjFLw9HiDNF2RIe79rKmTlfPASfR-SK1VI/edit) | Editable Drive copy in the work account. Edits in Drive do not automatically synchronize to Git. |
 | [Source package hashes](reports/2026-10-21/source-package-sha256.json) | SHA-256 values of all 33 supplied files, excluding Finder metadata. |
+| [CSAA mutual success plan](reports/2026-10-21/csaa-mutual-success-plan.md) | Requirements-based draft with proposed activities, success indicators, deployment details and known DPT owners; unconfirmed dates and contacts are marked explicitly. |
+| [MSP PDF](reports/2026-10-21/csaa-mutual-success-plan.pdf) / [MSP Word snapshot](reports/2026-10-21/csaa-mutual-success-plan.docx) / [structured MSP content](reports/2026-10-21/csaa-mutual-success-plan.json) | Snapshots of the [editable Google Doc](https://docs.google.com/document/d/1GfYrExOJhHtyCAgCJsk0rJ20Up9Vg5aAShzPLqlUeQk/edit). The original template is retained under `reports/2026-10-21/source-templates/`. No successful PoV result or commercial commitment is asserted. |
 | [Original package introduction](README.md) | Framework overview, folder purposes and operating sequence. |
 
 The supplied framework files are unchanged. The report cites public CodeRabbit
