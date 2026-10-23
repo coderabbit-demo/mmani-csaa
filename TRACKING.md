@@ -9,6 +9,7 @@ demonstration implementation and local CLI rehearsals are recorded below.
 
 | Artifact | Purpose |
 | --- | --- |
+| [Current PoV plan workbook](reports/2026-10-23/pov-plan/README.md) | The [shared spreadsheet](https://docs.google.com/spreadsheets/d/1-8qfMIAybwQ86um90OLOXs79z6yEDkU5/edit) replaces the prior MSP Google Doc. Contains mapped success criteria, schedule, setup, feedback, BVA and metrics; includes a dated XLSX snapshot, original template and cell mapping. |
 | [October 23 PI extension](reports/2026-10-23/README.md) | Adds a Potential PI prompt column to all assessed probe/gate/platform/gap rows, with suggested scopes and explicit limits. Includes dated report exports and a structured candidate library; original ratings and October 21 snapshots are preserved. |
 | [CodeRabbit assessment](reports/2026-10-21/coderabbit-assessment.md) | Exact requirement wording, Met ratings, evidence, gaps and mitigation options. |
 | [HTML snapshot](reports/2026-10-21/coderabbit-assessment.html) | Full report used to create the Google Doc. |
@@ -16,12 +17,12 @@ demonstration implementation and local CLI rehearsals are recorded below.
 | [PDF snapshot](reports/2026-10-21/coderabbit-assessment.pdf) / [Word snapshot](reports/2026-10-21/coderabbit-assessment.docx) | Exports of the completed native Google Doc. |
 | [Google Doc](https://docs.google.com/document/d/16LQrN9LyoMjFLw9HiDNF2RIe79rKmTlfPASfR-SK1VI/edit) | Editable Drive copy in the work account. Edits in Drive do not automatically synchronize to Git. |
 | [Source package hashes](reports/2026-10-21/source-package-sha256.json) | SHA-256 values of all 33 supplied files, excluding Finder metadata. |
-| [CSAA mutual success plan](reports/2026-10-21/csaa-mutual-success-plan.md) | Requirements-based draft with proposed activities, success indicators, deployment details and known DPT owners; unconfirmed dates and contacts are marked explicitly. |
+| [Historical CSAA mutual success plan](reports/2026-10-21/csaa-mutual-success-plan.md) | Superseded by the current PoV plan workbook. Preserved requirements-based draft with proposed activities, success indicators, deployment details and known DPT owners. |
 | [MSP handoff and open confirmations](reports/2026-10-21/csaa-msp-handoff.md) | Links the committed deliverables and records the confirmations needed before execution or commercial commitments. |
 | [Demonstration implementation status](reports/2026-10-21/demo-implementation-status.md) | Six published baselines, passing hosted CI, native showcase observations, configuration package, hosted/CLI repeatability and completed Jira/scope controls with explicit limits. Contains no execution code or locked answer keys. |
 | [Current Bitbucket onboarding recording](reports/2026-10-22/bitbucket-onboarding/README.md) | 12:13 native-resolution v3 with masks removed, preserved typing speed, Bitbucket webhook secret demonstration, revised cuts, validation and portable chapter sources; redacted v2 retained. Demonstration setup only; formal evaluation remains unscored. |
 | [Earlier CodeRabbit Readiness video package](reports/2026-10-21/coderabbit-readiness/README.md) | Preserved October 21 walkthrough, prior exports, timing validation and recorded production sources. Superseded by the October 22 retake. |
-| [MSP PDF](reports/2026-10-21/csaa-mutual-success-plan.pdf) / [MSP Word snapshot](reports/2026-10-21/csaa-mutual-success-plan.docx) / [structured MSP content](reports/2026-10-21/csaa-mutual-success-plan.json) | Snapshots of the [editable Google Doc](https://docs.google.com/document/d/1GfYrExOJhHtyCAgCJsk0rJ20Up9Vg5aAShzPLqlUeQk/edit). The original template is retained under `reports/2026-10-21/source-templates/`. No successful PoV result or commercial commitment is asserted. |
+| [Historical MSP PDF](reports/2026-10-21/csaa-mutual-success-plan.pdf) / [Word snapshot](reports/2026-10-21/csaa-mutual-success-plan.docx) / [structured content](reports/2026-10-21/csaa-mutual-success-plan.json) | Historical snapshots of the [superseded Google Doc](https://docs.google.com/document/d/1GfYrExOJhHtyCAgCJsk0rJ20Up9Vg5aAShzPLqlUeQk/edit). The original template is retained under `reports/2026-10-21/source-templates/`. Use the current workbook for plan updates. |
 | [Original package introduction](README.md) | Framework overview, folder purposes and operating sequence. |
 
 The supplied framework files are unchanged. The report cites public CodeRabbit

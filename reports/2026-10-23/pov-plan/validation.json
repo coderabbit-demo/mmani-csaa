@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-23",
+  "target": "https://docs.google.com/spreadsheets/d/1-8qfMIAybwQ86um90OLOXs79z6yEDkU5/edit",
+  "original_file_edited_in_place": true,
+  "sheet_order_preserved": [
+    "Overview",
+    "Success Criteria",
+    "Milestone Tracker",
+    "Configuration Checklist",
+    "PR Feedback",
+    "BVA Inputs",
+    "Metrics"
+  ],
+  "mapped_cells_verified": 558,
+  "success_criteria": 11,
+  "all_outcomes_pending": true,
+  "template_comments_preserved": 9,
+  "merged_ranges_preserved": 39,
+  "validation_cells_verified": 135,
+  "out_of_scope_value_changes": 0,
+  "cached_formula_errors": 0,
+  "formula_count": 18,
+  "unknown_financial_inputs_cleared": 12,
+  "financial_outputs_blank": true,
+  "feedback_rows_unpopulated": true,
+  "calendar_dates_pending": true,
+  "visual_views_verified_in_external_chrome": [
+    "Overview",
+    "Success Criteria",
+    "Milestone Tracker",
+    "Configuration Checklist",
+    "PR Feedback",
+    "BVA Inputs",
+    "Metrics"
+  ],
+  "formal_evaluation_executed": false,
+  "original_sha256": "6bb228157207c143995c3ca5c108059319f6f70c1967ac4078f912b895316830",
+  "completed_sha256": "4483a3fef7b06f24cb7c77d754a8069f82d3e4a78f223f747a2609af748a8a26"
+}
