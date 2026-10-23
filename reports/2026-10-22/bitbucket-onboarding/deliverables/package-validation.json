@@ -1,0 +1,7 @@
+{
+  "portable_reassembly": "byte-identical to published v2",
+  "sha256": "a07c8a98fffacd6da5ea3d40e948172b8fa21044f237ed85e3f25f217cc9e272",
+  "issue": "https://github.com/coderabbit-demo/mmani-csaa/issues/4",
+  "original_video_validation": "validation-v2.json",
+  "review_automation": "unchanged; disabled"
+}

@@ -1,0 +1,518 @@
+[
+  {
+    "name": "intro",
+    "chapter": "intro",
+    "file": "local-original-chapters/intro.mp4",
+    "a": 0,
+    "b": 7.0,
+    "original_start": 0,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "docs",
+    "chapter": "docs",
+    "file": "local-original-chapters/docs.mp4",
+    "a": 0,
+    "b": 11.2,
+    "original_start": 7.0,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "transition-service",
+    "chapter": "transition-service",
+    "file": "local-original-chapters/transition-service.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 18.2,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "service",
+    "chapter": "service",
+    "file": "local-original-chapters/service.mp4",
+    "a": 0,
+    "b": 15.766666666666667,
+    "original_start": 22.2,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "transition-token",
+    "chapter": "transition-token",
+    "file": "local-original-chapters/transition-token.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 37.966667,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "token",
+    "chapter": "token",
+    "file": "local-original-chapters/token.mp4",
+    "a": 0,
+    "b": 27.566666666666666,
+    "original_start": 41.966667,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "transition-workspace",
+    "chapter": "transition-workspace",
+    "file": "local-original-chapters/transition-workspace.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 69.533333,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "workspace",
+    "chapter": "workspace",
+    "file": "local-original-chapters/workspace.mp4",
+    "a": 0,
+    "b": 7.866666666666666,
+    "original_start": 73.533333,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "transition-install",
+    "chapter": "transition-install",
+    "file": "local-original-chapters/transition-install.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 81.4,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "install-0",
+    "chapter": "install-0",
+    "file": "local-original-chapters/install-0.mp4",
+    "a": 0,
+    "b": 20.9,
+    "original_start": 85.4,
+    "typing": [
+      [
+        0,
+        8.2
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "install-1",
+    "chapter": "install-1",
+    "file": "local-original-chapters/install-1.mp4",
+    "a": 0,
+    "b": 47.96666666666667,
+    "original_start": 106.3,
+    "typing": [
+      [
+        8.049999999999999,
+        16.399999999999995
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-account",
+    "chapter": "transition-account",
+    "file": "local-original-chapters/transition-account.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 154.266667,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "account",
+    "chapter": "account",
+    "file": "local-original-chapters/account.mp4",
+    "a": 0,
+    "b": 31.866666666666667,
+    "original_start": 158.266667,
+    "typing": [
+      [
+        15.85,
+        24.23333333333333
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-secret",
+    "chapter": "transition-secret",
+    "file": "local-original-chapters/transition-secret.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 190.133333,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "secret",
+    "chapter": "secret",
+    "file": "local-original-chapters/secret.mp4",
+    "a": 0,
+    "b": 14.633333333333333,
+    "original_start": 194.133333,
+    "typing": [
+      [
+        7.85,
+        14.633333333333333
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-webhooks",
+    "chapter": "transition-webhooks",
+    "file": "local-original-chapters/transition-webhooks.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 208.766667,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "webhooks-0",
+    "chapter": "webhooks",
+    "file": "local-original-chapters/webhooks.mp4",
+    "a": 0,
+    "b": 16,
+    "original_start": 212.766667,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "webhooks-1",
+    "chapter": "webhooks",
+    "file": "local-original-chapters/webhooks.mp4",
+    "a": 22.5,
+    "b": 51.9,
+    "original_start": 235.266667,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "transition-jira",
+    "chapter": "transition-jira",
+    "file": "local-original-chapters/transition-jira.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 264.666667,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "jira",
+    "chapter": "jira",
+    "file": "local-original-chapters/jira.mp4",
+    "a": 5.933333333,
+    "b": 97.6,
+    "original_start": 274.600000333,
+    "typing": [
+      [
+        13.750000000333337,
+        19.066666667000007
+      ],
+      [
+        25.316666667000003,
+        35.766666667
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-scope",
+    "chapter": "transition-scope",
+    "file": "local-original-chapters/transition-scope.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 366.266667,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "scope",
+    "chapter": "scope",
+    "file": "local-original-chapters/scope.mp4",
+    "a": 0,
+    "b": 54.93333333333333,
+    "original_start": 370.266667,
+    "typing": [
+      [
+        15.85,
+        26.56666666666667
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-config",
+    "chapter": "transition-config",
+    "file": "local-original-chapters/transition-config.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 425.2,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "config",
+    "chapter": "config",
+    "file": "local-original-chapters/config.mp4",
+    "a": 0,
+    "b": 94.63333333333334,
+    "original_start": 429.2,
+    "typing": [
+      [
+        27.150000000000006,
+        62.7
+      ],
+      [
+        74.44999999999999,
+        82.8
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-pr",
+    "chapter": "transition-pr",
+    "file": "local-original-chapters/transition-pr.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 523.833333,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "pr",
+    "chapter": "pr",
+    "file": "local-original-chapters/pr.mp4",
+    "a": 0,
+    "b": 106.3,
+    "original_start": 527.833333,
+    "typing": [
+      [
+        19.75000000000001,
+        45.10000000000001
+      ],
+      [
+        52.75000000000001,
+        70.16666666666664
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-review",
+    "chapter": "transition-review",
+    "file": "local-original-chapters/transition-review.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 634.133333,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "review",
+    "chapter": "review",
+    "file": "local-original-chapters/review.mp4",
+    "a": 0,
+    "b": 33.0,
+    "original_start": 638.133333,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "transition-change-stack",
+    "chapter": "transition-change-stack",
+    "file": "local-original-chapters/transition-change-stack.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 671.133333,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "change-stack-0",
+    "chapter": "change-stack",
+    "file": "local-original-chapters/change-stack.mp4",
+    "a": 0,
+    "b": 8,
+    "original_start": 675.133333,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "change-stack-1",
+    "chapter": "change-stack",
+    "file": "local-original-chapters/change-stack.mp4",
+    "a": 58.866666667,
+    "b": 79.7,
+    "original_start": 733.999999667,
+    "typing": [],
+    "browser": true
+  },
+  {
+    "name": "transition-premerge",
+    "chapter": "transition-premerge",
+    "file": "local-original-chapters/transition-premerge.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 754.833333,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "premerge",
+    "chapter": "premerge",
+    "file": "local-original-chapters/premerge.mp4",
+    "a": 0,
+    "b": 52.06666666666667,
+    "original_start": 758.833333,
+    "typing": [
+      [
+        9,
+        18.641
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-help",
+    "chapter": "transition-help",
+    "file": "local-original-chapters/transition-help.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 810.9,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "help",
+    "chapter": "help",
+    "file": "local-original-chapters/help.mp4",
+    "a": 0,
+    "b": 4.733333333333333,
+    "original_start": 814.9,
+    "typing": [
+      [
+        1.3829787234042552,
+        2.3404255319148937
+      ]
+    ],
+    "browser": true
+  },
+  {
+    "name": "transition-cli-prepare",
+    "chapter": "transition-cli-prepare",
+    "file": "local-original-chapters/transition-cli-prepare.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 819.633333,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "cli-prepare",
+    "chapter": "cli-prepare",
+    "file": "local-original-chapters/cli-prepare.mp4",
+    "a": 0,
+    "b": 11.166666666666666,
+    "original_start": 823.633333,
+    "typing": [
+      [
+        0.9,
+        4.1
+      ],
+      [
+        6,
+        9.13
+      ]
+    ],
+    "browser": false
+  },
+  {
+    "name": "transition-cli-install",
+    "chapter": "transition-cli-install",
+    "file": "local-original-chapters/transition-cli-install.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 834.8,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "cli-install",
+    "chapter": "cli-install",
+    "file": "local-original-chapters/cli-install.mp4",
+    "a": 0,
+    "b": 16.633333333333333,
+    "original_start": 838.8,
+    "typing": [
+      [
+        0,
+        5.05
+      ]
+    ],
+    "browser": false
+  },
+  {
+    "name": "transition-cli-version",
+    "chapter": "transition-cli-version",
+    "file": "local-original-chapters/transition-cli-version.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 855.433333,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "cli-version",
+    "chapter": "cli-version",
+    "file": "local-original-chapters/cli-version.mp4",
+    "a": 0,
+    "b": 5.566666666666666,
+    "original_start": 859.433333,
+    "typing": [
+      [
+        0,
+        1.43
+      ]
+    ],
+    "browser": false
+  },
+  {
+    "name": "transition-cli-login",
+    "chapter": "transition-cli-login",
+    "file": "local-original-chapters/transition-cli-login.mp4",
+    "a": 0,
+    "b": 4.0,
+    "original_start": 865.0,
+    "typing": [],
+    "browser": false
+  },
+  {
+    "name": "cli-login",
+    "chapter": "cli-login",
+    "file": "local-original-chapters/cli-login.mp4",
+    "a": 0,
+    "b": 5.466666666666667,
+    "original_start": 869.0,
+    "typing": [
+      [
+        0,
+        1.44
+      ]
+    ],
+    "browser": false
+  }
+]

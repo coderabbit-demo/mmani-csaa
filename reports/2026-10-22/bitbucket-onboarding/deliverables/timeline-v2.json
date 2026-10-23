@@ -1,0 +1,296 @@
+{
+  "final": "deliverables/CodeRabbit-Readiness-Bitbucket-Cloud-2026-10-22-v2.mp4",
+  "duration": 733.0999950000004,
+  "resolution": [
+    3024,
+    1964
+  ],
+  "fps": 30,
+  "audio": false,
+  "subtitles": false,
+  "speed": 1.2,
+  "typing_speed": "unchanged",
+  "segments": [
+    {
+      "name": "intro",
+      "file": "production/chapters/intro.mp4",
+      "start": 0,
+      "duration": 5.833333
+    },
+    {
+      "name": "docs",
+      "file": "production/chapters/docs.mp4",
+      "start": 5.833333,
+      "duration": 9.333333
+    },
+    {
+      "name": "transition-service",
+      "file": "production/chapters/transition-service.mp4",
+      "start": 15.166666,
+      "duration": 3.333333
+    },
+    {
+      "name": "service",
+      "file": "production/chapters/service.mp4",
+      "start": 18.499999,
+      "duration": 13.133333
+    },
+    {
+      "name": "transition-token",
+      "file": "production/chapters/transition-token.mp4",
+      "start": 31.633332,
+      "duration": 3.333333
+    },
+    {
+      "name": "token",
+      "file": "production/chapters/token.mp4",
+      "start": 34.966665,
+      "duration": 22.966667
+    },
+    {
+      "name": "transition-workspace",
+      "file": "production/chapters/transition-workspace.mp4",
+      "start": 57.933332,
+      "duration": 3.333333
+    },
+    {
+      "name": "workspace",
+      "file": "production/chapters/workspace.mp4",
+      "start": 61.266665,
+      "duration": 6.566667
+    },
+    {
+      "name": "transition-install",
+      "file": "production/chapters/transition-install.mp4",
+      "start": 67.833332,
+      "duration": 3.333333
+    },
+    {
+      "name": "install-0",
+      "file": "production/chapters/install-0.mp4",
+      "start": 71.166665,
+      "duration": 18.8
+    },
+    {
+      "name": "install-1",
+      "file": "production/chapters/install-1.mp4",
+      "start": 89.96666499999999,
+      "duration": 41.366667
+    },
+    {
+      "name": "transition-account",
+      "file": "production/chapters/transition-account.mp4",
+      "start": 131.33333199999998,
+      "duration": 3.333333
+    },
+    {
+      "name": "account",
+      "file": "production/chapters/account.mp4",
+      "start": 134.666665,
+      "duration": 27.966667
+    },
+    {
+      "name": "transition-secret",
+      "file": "production/chapters/transition-secret.mp4",
+      "start": 162.633332,
+      "duration": 3.333333
+    },
+    {
+      "name": "secret",
+      "file": "production/chapters/secret.mp4",
+      "start": 165.966665,
+      "duration": 13.333333
+    },
+    {
+      "name": "transition-webhooks",
+      "file": "production/chapters/transition-webhooks.mp4",
+      "start": 179.29999800000002,
+      "duration": 3.333333
+    },
+    {
+      "name": "webhooks-0",
+      "file": "production/chapters/webhooks-0.mp4",
+      "start": 182.63333100000003,
+      "duration": 13.333333
+    },
+    {
+      "name": "webhooks-1",
+      "file": "production/chapters/webhooks-1.mp4",
+      "start": 195.96666400000004,
+      "duration": 24.5
+    },
+    {
+      "name": "webhook-edit",
+      "file": "production/chapters/webhook-edit.mp4",
+      "start": 220.46666400000004,
+      "duration": 18.933333
+    },
+    {
+      "name": "webhook-entry",
+      "file": "production/chapters/webhook-entry.mp4",
+      "start": 239.39999700000004,
+      "duration": 9.866667
+    },
+    {
+      "name": "transition-jira",
+      "file": "production/chapters/transition-jira.mp4",
+      "start": 249.26666400000005,
+      "duration": 3.333333
+    },
+    {
+      "name": "jira",
+      "file": "production/chapters/jira.mp4",
+      "start": 252.59999700000006,
+      "duration": 79.033333
+    },
+    {
+      "name": "transition-scope",
+      "file": "production/chapters/transition-scope.mp4",
+      "start": 331.63333000000006,
+      "duration": 3.333333
+    },
+    {
+      "name": "scope",
+      "file": "production/chapters/scope.mp4",
+      "start": 334.96666300000004,
+      "duration": 47.566667
+    },
+    {
+      "name": "transition-config",
+      "file": "production/chapters/transition-config.mp4",
+      "start": 382.53333000000003,
+      "duration": 3.333333
+    },
+    {
+      "name": "config",
+      "file": "production/chapters/config.mp4",
+      "start": 385.866663,
+      "duration": 86.166667
+    },
+    {
+      "name": "transition-pr",
+      "file": "production/chapters/transition-pr.mp4",
+      "start": 472.03333000000003,
+      "duration": 3.333333
+    },
+    {
+      "name": "pr",
+      "file": "production/chapters/pr.mp4",
+      "start": 475.366663,
+      "duration": 95.7
+    },
+    {
+      "name": "transition-review",
+      "file": "production/chapters/transition-review.mp4",
+      "start": 571.0666630000001,
+      "duration": 3.333333
+    },
+    {
+      "name": "review",
+      "file": "production/chapters/review.mp4",
+      "start": 574.3999960000001,
+      "duration": 27.5
+    },
+    {
+      "name": "transition-change-stack",
+      "file": "production/chapters/transition-change-stack.mp4",
+      "start": 601.8999960000001,
+      "duration": 3.333333
+    },
+    {
+      "name": "change-stack-0",
+      "file": "production/chapters/change-stack-0.mp4",
+      "start": 605.2333290000001,
+      "duration": 6.666667
+    },
+    {
+      "name": "change-stack-1",
+      "file": "production/chapters/change-stack-1.mp4",
+      "start": 611.8999960000001,
+      "duration": 17.366667
+    },
+    {
+      "name": "transition-premerge",
+      "file": "production/chapters/transition-premerge.mp4",
+      "start": 629.2666630000001,
+      "duration": 3.333333
+    },
+    {
+      "name": "premerge",
+      "file": "production/chapters/premerge.mp4",
+      "start": 632.5999960000001,
+      "duration": 45.0
+    },
+    {
+      "name": "transition-help",
+      "file": "production/chapters/transition-help.mp4",
+      "start": 677.5999960000001,
+      "duration": 3.333333
+    },
+    {
+      "name": "help",
+      "file": "production/chapters/help.mp4",
+      "start": 680.9333290000002,
+      "duration": 4.1
+    },
+    {
+      "name": "transition-cli-prepare",
+      "file": "production/chapters/transition-cli-prepare.mp4",
+      "start": 685.0333290000002,
+      "duration": 3.333333
+    },
+    {
+      "name": "cli-prepare",
+      "file": "production/chapters/cli-prepare.mp4",
+      "start": 688.3666620000002,
+      "duration": 10.366667
+    },
+    {
+      "name": "transition-cli-install",
+      "file": "production/chapters/transition-cli-install.mp4",
+      "start": 698.7333290000003,
+      "duration": 3.333333
+    },
+    {
+      "name": "cli-install",
+      "file": "production/chapters/cli-install.mp4",
+      "start": 702.0666620000003,
+      "duration": 14.7
+    },
+    {
+      "name": "transition-cli-version",
+      "file": "production/chapters/transition-cli-version.mp4",
+      "start": 716.7666620000003,
+      "duration": 3.333333
+    },
+    {
+      "name": "cli-version",
+      "file": "production/chapters/cli-version.mp4",
+      "start": 720.0999950000004,
+      "duration": 4.866667
+    },
+    {
+      "name": "transition-cli-login",
+      "file": "production/chapters/transition-cli-login.mp4",
+      "start": 724.9666620000004,
+      "duration": 3.333333
+    },
+    {
+      "name": "cli-login",
+      "file": "production/chapters/cli-login.mp4",
+      "start": 728.2999950000004,
+      "duration": 4.8
+    }
+  ],
+  "removed_original_intervals": [
+    [
+      228.766667,
+      235.266667
+    ],
+    [
+      683.133333,
+      734
+    ]
+  ],
+  "webhook_secret": "DEMO_WEBHOOK_SECRET_NOT_VALID; entered visibly; discarded without saving"
+}
