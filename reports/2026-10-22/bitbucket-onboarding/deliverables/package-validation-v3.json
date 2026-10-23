@@ -1,0 +1,15 @@
+{
+  "issue": "https://github.com/coderabbit-demo/mmani-csaa/issues/6",
+  "versions": {
+    "v2": {
+      "reassembly": "byte-identical",
+      "sha256": "a07c8a98fffacd6da5ea3d40e948172b8fa21044f237ed85e3f25f217cc9e272"
+    },
+    "v3": {
+      "reassembly": "byte-identical",
+      "sha256": "c3deca43b7657e2cb76654e92136ccd2252f11a4d79677453087e9a5291efdc8"
+    }
+  },
+  "v3_video_validation": "validation-v3.json",
+  "review_automation": "unchanged; disabled"
+}

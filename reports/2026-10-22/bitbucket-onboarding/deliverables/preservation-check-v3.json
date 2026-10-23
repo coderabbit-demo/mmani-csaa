@@ -1,0 +1,47 @@
+[
+  {
+    "chapter": "install-0",
+    "seconds": 13.5,
+    "mean_absolute_rgb_difference_outside_overlays": [
+      0.0076674543825604406,
+      0.007247534886907871,
+      0.010480187704397346
+    ]
+  },
+  {
+    "chapter": "install-1",
+    "seconds": 6,
+    "mean_absolute_rgb_difference_outside_overlays": [
+      0.013077584623348864,
+      0.014505558566477358,
+      0.024427368216507036
+    ]
+  },
+  {
+    "chapter": "scope",
+    "seconds": 22,
+    "mean_absolute_rgb_difference_outside_overlays": [
+      0.0168152749880349,
+      0.020496244908289746,
+      0.024284543941661678
+    ]
+  },
+  {
+    "chapter": "config",
+    "seconds": 30,
+    "mean_absolute_rgb_difference_outside_overlays": [
+      0.002005373055003624,
+      0.0017916740358552977,
+      0.0029640679852581653
+    ]
+  },
+  {
+    "chapter": "change-stack-1",
+    "seconds": 0.2,
+    "mean_absolute_rgb_difference_outside_overlays": [
+      0.0017747861230628223,
+      0.0012129455456435265,
+      0.0016793655673747886
+    ]
+  }
+]

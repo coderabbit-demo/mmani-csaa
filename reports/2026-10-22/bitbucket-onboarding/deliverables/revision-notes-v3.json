@@ -1,0 +1,16 @@
+{
+  "based_on": "revision-v2",
+  "change": "Remove only the browser debugging banner mask, Chrome profile mask, and repository-name masks.",
+  "preserved": [
+    "source ranges",
+    "1.2x non-typing speed",
+    "typing intervals",
+    "caption overlays",
+    "chapter order",
+    "webhook extension",
+    "resolution",
+    "frame rate",
+    "silent audio policy"
+  ],
+  "unchanged_chapters": "Intro, transition cards and CLI chapter files copied byte-for-byte from v2."
+}

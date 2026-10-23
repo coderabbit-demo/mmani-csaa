@@ -1,0 +1,266 @@
+{
+  "resolution": [
+    3024,
+    1964
+  ],
+  "fps": 30,
+  "duration_seconds": 733.1,
+  "audio_streams": 0,
+  "subtitle_streams": 0,
+  "full_decode": "passed",
+  "chapter_timing": "all chapter durations and frame counts identical to v2",
+  "byte_identical_chapters": [
+    "intro",
+    "transition-service",
+    "transition-token",
+    "transition-workspace",
+    "transition-install",
+    "transition-account",
+    "transition-secret",
+    "transition-webhooks",
+    "transition-jira",
+    "transition-scope",
+    "transition-config",
+    "transition-pr",
+    "transition-review",
+    "transition-change-stack",
+    "transition-premerge",
+    "transition-help",
+    "transition-cli-prepare",
+    "cli-prepare",
+    "transition-cli-install",
+    "cli-install",
+    "transition-cli-version",
+    "cli-version",
+    "transition-cli-login",
+    "cli-login"
+  ],
+  "chapters": [
+    {
+      "chapter": "intro",
+      "frames": 175,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "docs",
+      "frames": 280,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-service",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "service",
+      "frames": 394,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-token",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "token",
+      "frames": 689,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-workspace",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "workspace",
+      "frames": 197,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-install",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "install-0",
+      "frames": 564,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "install-1",
+      "frames": 1241,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-account",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "account",
+      "frames": 839,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-secret",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "secret",
+      "frames": 400,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-webhooks",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "webhooks-0",
+      "frames": 400,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "webhooks-1",
+      "frames": 735,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "webhook-edit",
+      "frames": 568,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "webhook-entry",
+      "frames": 296,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-jira",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "jira",
+      "frames": 2371,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-scope",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "scope",
+      "frames": 1427,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-config",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "config",
+      "frames": 2585,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-pr",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "pr",
+      "frames": 2871,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-review",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "review",
+      "frames": 825,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-change-stack",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "change-stack-0",
+      "frames": 200,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "change-stack-1",
+      "frames": 521,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-premerge",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "premerge",
+      "frames": 1350,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-help",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "help",
+      "frames": 123,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-cli-prepare",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "cli-prepare",
+      "frames": 311,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-cli-install",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "cli-install",
+      "frames": 441,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-cli-version",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "cli-version",
+      "frames": 146,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "transition-cli-login",
+      "frames": 100,
+      "timing": "identical to v2"
+    },
+    {
+      "chapter": "cli-login",
+      "frames": 144,
+      "timing": "identical to v2"
+    }
+  ],
+  "change": "Removed v2 browser debugging banner, Chrome profile and repository name redaction overlays only."
+}
