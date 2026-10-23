@@ -1,0 +1,25 @@
+{
+  "full_decode": "passed without errors",
+  "resolution": [
+    3024,
+    1964
+  ],
+  "fps": 30,
+  "duration_seconds": 733.1,
+  "audio_streams": 0,
+  "subtitle_streams": 0,
+  "burned_in_captions": true,
+  "speed_outside_typing": 1.2,
+  "typing_speed": "preserved",
+  "ocr_frames_checked": 1736,
+  "redaction_hits": [],
+  "ocr_sampling": "2 fps whole video, plus 15 fps across scope scrolling",
+  "visual_checks": [
+    "Repository lists keep coderabbit-test-repo visible",
+    "Failed repository action removed; correct Settings menu retained",
+    "Bitbucket Secret field receives visible dummy typing; no Save clicked; dummy discarded",
+    "Connections section starts with selecting Connections",
+    "Change Stack opens directly after PR link; reconnection removed; caption corrected",
+    "CLI ends after login-help output"
+  ]
+}
