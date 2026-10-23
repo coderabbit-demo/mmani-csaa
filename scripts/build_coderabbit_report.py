@@ -1,9 +1,13 @@
-import json, html, re
+import argparse, json, html, re
 from pathlib import Path
 
 root=Path(__file__).resolve().parents[1]
-report_dir=root/'reports'/'2026-10-21'
+parser=argparse.ArgumentParser(description='Build a dated CodeRabbit assessment HTML snapshot.')
+parser.add_argument('--report-dir',type=Path,default=root/'reports'/'2026-10-21')
+args=parser.parse_args()
+report_dir=args.report_dir
 report=json.loads((report_dir/'coderabbit-assessment.json').read_text())
+pi=report.get('pathInstructions')
 lines=(root/'runbook.md').read_text().splitlines()
 sources=report['sources']
 def esc(s): return html.escape(str(s),quote=True)
@@ -15,7 +19,15 @@ def fmt(s):
 def refs(ids):
     return ' '.join('<a href="'+esc(sources[i][1])+'">['+i+']</a>' for i in dict.fromkeys(ids))
 def p(s,cls=''): return '<p'+(' class="'+cls+'"' if cls else '')+'>'+fmt(s)+'</p>'
-def table(headers,rows,widths=None):
+def pi_cell(key):
+    item=pi['candidates'][key]
+    if not item['prompt']: return p(item['limit'])
+    return p('Suggested paths: '+', '.join(item['paths']))+p('Prompt: '+item['prompt'])+p('Limit: '+item['limit'])
+def table(headers,rows,widths=None,row_ids=None):
+    if pi and row_ids is not None:
+        headers=[*headers,'Potential PI prompt (proposed)']
+        rows=[[*row,pi_cell(key)] for row,key in zip(rows,row_ids,strict=True)]
+        widths=[6,9.5,22,17,21.5,24]
     out='<table border="1" cellspacing="0" cellpadding="5" width="100%">'
     if widths: out+='<colgroup>'+''.join('<col width="'+str(w)+'%">' for w in widths)+'</colgroup>'
     out+='<thead><tr>'+''.join('<th>'+h+'</th>' for h in headers)+'</tr></thead><tbody>'
@@ -49,11 +61,12 @@ def prod_section(key,title,note):
         if q['id'] not in report['productRows']: continue
         a=report['productRows'][q['id']]
         rs.append([label(q['id']),label(a['status']),exact(q),p(a['evidence'])+p('POC evidence: not supplied.'),p(a['mitigation'])+'<p>'+refs(a['refs'])+'</p>'])
-    return out+table(['ID','Met','Exact requirement wording','Evidence and remaining gap','Available mitigation and closure proof'],rs,[6.5,10,30,23.5,30])
+    return out+table(['ID','Met','Exact requirement wording','Evidence and remaining gap','Available mitigation and closure proof'],rs,[6.5,10,30,23.5,30],row_ids=[q['id'] for q in report['requirements'][key] if q['id'] in report['productRows']])
 out='<!doctype html><html><head><meta charset="utf-8"><title>'+esc(report['title'])+'</title><style>@page{size:letter landscape;margin:0.5in;}body{font-size:11pt;line-height:1.15;max-width:10in;margin:0 auto;}p{margin:0 0 6pt;}h1{font-size:18pt;margin:18pt 0 8pt;}h2{font-size:16pt;margin:14pt 0 8pt;}h1.title{font-size:22pt;}table{border-collapse:collapse;margin:6pt 0 14pt;}th,td{border:1px solid #aab4c1;padding:5pt;vertical-align:top;}th{background:#e8eef5;text-align:left;}code,pre{font-family:monospace;}pre{white-space:pre-wrap;font-size:10pt;border:1px solid #c8cfd8;padding:8pt;}p.source{color:#475467;font-size:10pt;}li{margin-bottom:4pt;}</style></head><body>'
 out+='<h1 class="title">'+esc(report['title'])+'</h1>'+p(report['date'])
 out+=p('The framework is a credible basis for a controlled POC. The supplied package is a draft specification with no executed gate/probe evidence. Many gaps can be mitigated through supported CodeRabbit configuration, context controls or an evidence adapter; proposed mitigation is not proof that a criterion has been met.')
-out+=p('This revision expands the exact evaluated wording, separates supported product capability from actual POC evidence, and evaluates a mitigation for every previous hard No. It does not apply any CodeRabbit settings or change the source package.')
+out+=p(report.get('extension',{}).get('intro','This revision expands the exact evaluated wording, separates supported product capability from actual POC evidence, and evaluates a mitigation for every previous hard No. It does not apply any CodeRabbit settings or change the source package.'))
+if pi: out+=p(report['extension']['usage'])
 out+=p('Local authority: '+report['packageVersion']+'. Product implementation reference: ')+ '<p><a href="https://github.com/coderabbitai/mono/tree/'+esc(report['monoRef'])+'">coderabbitai/mono @ '+esc(report['monoRef'])+'</a>. Targeted source inspection establishes implementation evidence; it does not establish the deployed SaaS revision or your enabled plan.</p>'
 out+='<h1>How to read the assessment</h1>'
 out+=p('Met describes current documentation/source support: Yes = a supported route satisfies the literal capability; Partial = support exists with conditions or an export/enforcement gap; Maybe = a plausible unverified route; Unknown = insufficient evidence; No = an identified current gap. Every live gate and behavioral probe remains unexecuted in this package. These labels are not the framework’s 0–3 scores or Green/Yellow/Red probe ratings.')
@@ -82,12 +95,12 @@ sections=[
 ]
 for args in sections:out+=prod_section(*args)
 out+='<h1>Platform-specific coverage</h1>'
-out+=table(['ID','Met','Exact evaluated clause','Evidence and remaining gap','Mitigation and closure proof'],[[label(x['id']),label(x['status']),p(x['name'])+p(x['exact'])+p(x['local'],'source'),p(x['evidence']),p(x['mitigation'])+'<p>'+refs(x['refs'])+'</p>'] for x in report['platforms']],[6.5,10,30,23.5,30])
+out+=table(['ID','Met','Exact evaluated clause','Evidence and remaining gap','Mitigation and closure proof'],[[label(x['id']),label(x['status']),p(x['name'])+p(x['exact'])+p(x['local'],'source'),p(x['evidence']),p(x['mitigation'])+'<p>'+refs(x['refs'])+'</p>'] for x in report['platforms']],[6.5,10,30,23.5,30],row_ids=[x['id'] for x in report['platforms']])
 out+=p('E3–E10 and AS1–AS8 remain optional/aspirational unless explicitly elevated by the evaluation owner. Their absence is not assigned a hard No or treated as a Day 1 adoption blocker in this report.')
 out+='<h1>Framework gaps and mitigation of every hard No</h1>'
 out+=p('Current Met below concerns the package’s coverage or artifacts, not product capability. A supported mitigation does not change No to Yes until the package is updated and closure evidence exists. Proposed additional coverage is labeled explicitly.')
 out+=table(['ID','Met','Exact clause or explicitly proposed requirement','Assessment','Product mitigation, owner work and residual proof'],[
-[label(g['id']),label(g['met']),p(g['name']+' — '+g['priority'])+p(g['exact'])+p(g['local'],'source'),p(g['assessment']),'<p><strong>'+esc(g['mitigationSupport'])+'</strong></p>'+p(g['mitigation'])+'<p>'+refs(g['refs'])+'</p>'] for g in report['gaps']],[6.5,10,30,23.5,30])
+[label(g['id']),label(g['met']),p(g['name']+' — '+g['priority'])+p(g['exact'])+p(g['local'],'source'),p(g['assessment']),'<p><strong>'+esc(g['mitigationSupport'])+'</strong></p>'+p(g['mitigation'])+'<p>'+refs(g['refs'])+'</p>'] for g in report['gaps']],[6.5,10,30,23.5,30],row_ids=[g['id'] for g in report['gaps']])
 out+='<h1>Illustrative configuration fragments</h1>'
 out+=p('These are supported-format examples based on the inspected schema, not an applied or fully validated tenant configuration. Validate against the deployed schema/YAML validator and export @coderabbitai configuration before freezing. Do not copy the mono repository’s own dogfooding configuration wholesale.')
 out+='<h2>Advisory controls</h2><pre>'+esc(report['examples']['advisory'])+'</pre>'

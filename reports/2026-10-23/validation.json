@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "documentUrl": "https://docs.google.com/document/d/16LQrN9LyoMjFLw9HiDNF2RIe79rKmTlfPASfR-SK1VI/edit",
+  "baseline_assessment_preserved": true,
+  "original_table_cells_preserved": true,
+  "ratings_unchanged": true,
+  "source_package_hashes_unchanged": 33,
+  "candidate_cells": 78,
+  "with_candidate_prompt": 63,
+  "no_PI_closure": 15,
+  "six_column_tables": 10,
+  "column_widths_inches": [
+    0.6,
+    0.95,
+    2.2,
+    1.7,
+    2.15,
+    2.4
+  ],
+  "pdf_pages": 67,
+  "landscape_letter": true,
+  "p8_pages": [
+    15
+  ],
+  "f01_pages": [
+    50
+  ],
+  "evaluation_probes_executed": false,
+  "root_coderabbit_configuration_unchanged": true,
+  "legacy_text_rebuild_matches_frozen_snapshots": true,
+  "artifact_sha256": {
+    "coderabbit-assessment.docx": "e0def9f584c88cc5411d3a07444f1b27c29f02567fdd73f23f63a1fd5aca1e57",
+    "coderabbit-assessment.json": "73bd67ce3446d8cb72a0ba30e9fd6da47a3354331723cfc2fd46d0a18740a0d9",
+    "README.md": "cc30d782e40667ed7016712cc749872a574d22d389701c4a37ce9992aa9350b8",
+    "coderabbit-assessment.html": "322184ea31fdb749c4f37991dffb27bad02795018f532e7c493613eadfe61389",
+    "coderabbit-assessment.pdf": "c20ab1396c97de3a9a6c191c95f858adc3073f6f4d55ac685a40d337606d2a3c",
+    "path-instruction-candidates.json": "3add7f9a88683471c1447b00d9628917dda4ec43737dd8c5adb0396604175262",
+    "coderabbit-assessment.md": "31fea141db7e006d43f8161f4c936d0a313e31f13827922e9c8286b1d25295a6"
+  }
+}

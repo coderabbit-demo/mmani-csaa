@@ -2,6 +2,7 @@
 
 from html.parser import HTMLParser
 from pathlib import Path
+import argparse
 import re
 
 
@@ -91,7 +92,9 @@ def render(node, in_cell=False):
 
 
 if __name__ == "__main__":
-    directory = Path(__file__).resolve().parents[1] / "reports" / "2026-10-21"
+    cli = argparse.ArgumentParser(description="Export a dated assessment as Markdown.")
+    cli.add_argument("--report-dir", type=Path, default=Path(__file__).resolve().parents[1] / "reports" / "2026-10-21")
+    directory = cli.parse_args().report_dir
     parser = Parser()
     parser.feed((directory / "coderabbit-assessment.html").read_text(encoding="utf-8"))
     markdown = render(parser.root)

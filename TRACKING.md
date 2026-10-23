@@ -9,6 +9,7 @@ demonstration implementation and local CLI rehearsals are recorded below.
 
 | Artifact | Purpose |
 | --- | --- |
+| [October 23 PI extension](reports/2026-10-23/README.md) | Adds a Potential PI prompt column to all assessed probe/gate/platform/gap rows, with suggested scopes and explicit limits. Includes dated report exports and a structured candidate library; original ratings and October 21 snapshots are preserved. |
 | [CodeRabbit assessment](reports/2026-10-21/coderabbit-assessment.md) | Exact requirement wording, Met ratings, evidence, gaps and mitigation options. |
 | [HTML snapshot](reports/2026-10-21/coderabbit-assessment.html) | Full report used to create the Google Doc. |
 | [Assessment data](reports/2026-10-21/coderabbit-assessment.json) | Structured findings, requirements, source references and illustrative configuration. |
