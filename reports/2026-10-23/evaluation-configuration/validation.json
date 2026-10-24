@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-23",
+  "status": "Static validation only; not deployed; no review or formal probe executed",
+  "config": ".coderabbit.yaml",
+  "config_sha256": "72f85c113b46e78259280a949aa89bc8146e26d82d9105bf3338af5220bc8abb",
+  "schema_url": "https://coderabbit.ai/integrations/schema.v2.json",
+  "schema_sha256": "d626f238a3696c8fae555bb76edc0c1f2d533004f2772b6bbc0d8a12512d738f",
+  "mono_ref": "a9145b4d4d789d28c7655115be6fccda8d194bf7",
+  "yaml_duplicate_keys": 0,
+  "schema_errors": 0,
+  "unsupported_fields": 0,
+  "tone_characters": 218,
+  "path_instruction_blocks": 11,
+  "max_path_instruction_characters": 3447,
+  "custom_pre_merge_checks": 8,
+  "pre_merge_modes": [
+    "warning"
+  ],
+  "enabled_post_merge_actions": 0,
+  "tracking_root_config_unchanged": true,
+  "tracking_root_config_sha256": "5453e98afb5457b0b9abb18f2079aace2c459c423e97584238cf069b99e9a710",
+  "original_source_files_unchanged": 33,
+  "pyyaml_version": "6.0.3",
+  "jsonschema_version": "4.26.0"
+}

@@ -10,6 +10,7 @@ demonstration implementation and local CLI rehearsals are recorded below.
 | Artifact | Purpose |
 | --- | --- |
 | [Current PoV plan workbook](reports/2026-10-23/pov-plan/README.md) | The [shared spreadsheet](https://docs.google.com/spreadsheets/d/1-8qfMIAybwQ86um90OLOXs79z6yEDkU5/edit) replaces the prior MSP Google Doc. Contains mapped success criteria, schedule, setup, feedback, BVA and metrics; includes a dated XLSX snapshot, original template and cell mapping. |
+| [Consolidated evaluation configuration](reports/2026-10-23/evaluation-configuration/README.md) | One proposed `.coderabbit.yaml` with 11 PI blocks, eight advisory pre-merge checks, review tone and a disabled post-merge report recipe. Includes coverage of all 78 assessment IDs, setup limits and static schema validation. Configured/remediation use only; not deployed and no formal results changed. |
 | [October 23 PI extension](reports/2026-10-23/README.md) | Adds a Potential PI prompt column to all assessed probe/gate/platform/gap rows, with suggested scopes and explicit limits. Includes dated report exports and a structured candidate library; original ratings and October 21 snapshots are preserved. |
 | [CodeRabbit assessment](reports/2026-10-21/coderabbit-assessment.md) | Exact requirement wording, Met ratings, evidence, gaps and mitigation options. |
 | [HTML snapshot](reports/2026-10-21/coderabbit-assessment.html) | Full report used to create the Google Doc. |
