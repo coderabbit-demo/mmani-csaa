@@ -24,8 +24,8 @@ reviews:
   # The current schema calls request_changes_workflow a legacy alias. Do not
   # add it alongside auto_approvals; inspect the effective setting on rollout.
   auto_review:
-    enabled: false
-    auto_incremental_review: false
+    enabled: true
+    auto_incremental_review: true
     drafts: false
     description_keyword: ""
     labels: []
